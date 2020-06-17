@@ -3,7 +3,7 @@
 """
 Created on Sat Apr 25 17:46:43 2020
 
-@author: Eric
+@author: Eric W
 
 """
 
@@ -111,7 +111,7 @@ def SaveAsCSV(channel_data):
     #timestamp! Today's date
     date_time = time.strftime("%d%m%Y")
     
-    path = r'/Users/Eric/Documents/Python/Projects/SMM_Scraper/Data/'
+    path = r'YOUR PATH HERE'
     
     df_Lucky.to_csv(path+'Lucky_'+date_time+'.csv')
     df_SP.to_csv(path+'Santo_Placard_'+date_time+'.csv')
